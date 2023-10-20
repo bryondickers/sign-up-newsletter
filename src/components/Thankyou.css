@@ -1,0 +1,14 @@
+.main-div{
+    background:var(--white);
+    max-inline-size: 375px;
+    padding:1.5rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+.checked-img{
+    inline-size: 3rem;
+}
+.email{
+    color: var(--dark-slate-grey);
+    font-weight: bold;
+}

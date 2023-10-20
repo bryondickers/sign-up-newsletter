@@ -1,0 +1,37 @@
+:root {
+  --tomato-input: hsla(4, 100%, 67%,0.2);
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ #root{
+  margin-inline: auto;
+  max-inline-size: 375px;
+} 
+ @media only screen and (min-width: 1000px) and (max-width:1440px){
+  #root{
+    background: var(--dark-slate-grey);
+    inline-size: 60%;
+    block-size: 70%;
+    max-inline-size: 1440px;
+  }
+  body{
+    background: var(--dark-slate-grey);
+    position: absolute;
+    inline-size: 100%;
+    block-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
