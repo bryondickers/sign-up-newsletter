@@ -79,7 +79,10 @@ button:hover{
         align-items: center;
     }
     img,.content-div{
-        inline-size: 50%;
+        inline-size: 50%;  
+    }
+    .content-div{
+        padding-inline: 2rem;
     }
     
     .mobile-img{
